@@ -16,7 +16,7 @@ class Solution {
 public:
 /* on the base of levelOrder travel, we should record the number of the level to split the ans,
    so we could add one loop when we travel to distcint the level,
-   the number of level is the size of queue.
+   the number of level is the size
 */
 vector<vector< int > > levelOrder(TreeNode* root) {
     vector<vector< int > > res;
