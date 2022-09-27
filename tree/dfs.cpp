@@ -29,4 +29,4 @@ class Solution {
         dfs(root->left, level + 1);
         dfs(root->right, level + 1);
     }
-}
+};
